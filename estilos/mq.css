@@ -9,8 +9,12 @@
     body,html{
         background-image: linear-gradient(to top, var(--cor1), var(--cor2));
     }
+    form > div.campo{
+        background-image: radial-gradient( circle at center, var(--cor1), var(--cor2));
+    }
     section#login{
         width: 85vw;
+        height: 300px;
     }
     section#login > div#imagem{
         float: left;
@@ -30,8 +34,12 @@
     body,html{
         background-image: linear-gradient(to top, var(--cor1), var(--cor2));
     }
+    form > div.campo{
+        background-image: radial-gradient( circle at center, var(--cor1), var(--cor2));
+    }
     section#login{
         width: 950px;
+        height: 450px;
     }
     section#login > div#imagem{
         float: right;
@@ -49,5 +57,6 @@
     }
     p{
     font-size: 1.5em;
+    margin: 10px;
 }
 }
